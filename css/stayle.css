@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 1520px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+}
+
+img{
+    width: 100%;
+}
+
+.col-12 {
+    width: 100%;
+    height: 100%
+}
+
+.col-6 {
+    width: 30%;
+    height: 100%;
+    
+}
+
+.col-3 {
+    margin: 30px 20px;
+    width: 100%;
+    display: flex;
+}
+
+/* <!-- heder section start --> */
+.container .row .header-sec {
+    background-color: #09081a;
+}
+
+.container .row .col-12 ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    margin: 25px;
+}
+
+.container .row .col-12 ul li a {
+    text-decoration: none;
+    margin: 20px;
+    color: #f0f8ff;
+
+}
+
+/* <!-- heder section End --> */
+/* <!-- Hero section Start --> */
+.container .row .col-12 .header-sec {
+    background-image: url("../images/img-2.jpg");
+    width: 100%;
+    height: 700px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.container .row .col-12 .header-sec .h1 {
+    color: #f0f8ff;
+    font-size: 100px;
+    font-weight: lighter;
+    position: absolute;
+    top: 15rem;
+    left: 30rem;
+}
+
+
+.container .row .col-12 .header-sec .h3 {
+    color: #f0f8ff;
+    font-size: 30px;
+    font-weight: lighter;
+    position: absolute;
+    top: 21.5rem;
+    left: 30rem;
+}
+
+/* <!-- Hero section End --> */
+/* <!-- SERVICES section Start --> */
+.container .row .col-12 .services-sec {
+    justify-items: center;
+}
+
+.container .row .col-12 .services-sec h2 {
+    font-size: 35px;
+    margin-top: 50px;
+}
+
+.container .row .col-3 .card-1 {
+    height: 60%;
+    width: 80%;
+    margin: 0 50px;
+    justify-items: center
+}
+
+.container .row .col-3 .card-1 .cercal {
+
+    background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 100%, rgba(252, 176, 69, 1) 100%);
+    padding: 30px;
+    border-radius: 50%;
+    font-size: 30px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.container .row .col-3 .card-1 h4 {
+    color: #2b2929;
+}
+
+.container .row .col-3 .card-1 p {
+    text-align: center;
+    line-height: 30px;
+    color: #a5a5a5;
+}
+
+/* <!-- SERVICES section End --> */
+/* <!-- Portfoliyo section Start --> */
+.container .row .portfoliyo-sec {
+    justify-items: center;
+}
+
+.container .row .col-6 ul {
+    list-style-type: none;
+    margin-left: 100px;
+}
+.container .row .col-6 ul li a{
+  text-decoration: none;
+  color: #959595;
+  line-height: 3rem;
+}
+
+.container .row .col-6 .content{
+display: flex;
+height: 100%;
+width: 100%;
+padding-left: 100px;
+}
+.container .row .col-6 .content .imgass{
+ 
+    margin-left: 30px;
+    justify-items: start;
+    
+}
+/* <!-- Portfoliyo section End --> */
+        /* <!-- BLOG section END --> */
+        .container .row .col-3 .card-1 .pp {
+    text-align:left;
+    line-height: 30px;
+    color: #a5a5a5;
+}
+        /* <!-- BLOG section END --> */
+
